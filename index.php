@@ -7,7 +7,43 @@
     <title>Login</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tourism</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="home.php">Newpage</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-lg-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img height="500px"src="Images\1.jfif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="500px" src="Images\2.jfif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="500px" src="Images\3.jfif" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
 
@@ -38,5 +74,6 @@
 </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
